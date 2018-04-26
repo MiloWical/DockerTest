@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  environmentvariabletest:
+    image: environmentvariabletest
+    build:
+      context: .
+      dockerfile: EnvironmentVariableTest/Dockerfile
