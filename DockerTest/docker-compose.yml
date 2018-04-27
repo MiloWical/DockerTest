@@ -6,3 +6,5 @@ services:
     build:
       context: .
       dockerfile: EnvironmentVariableTest/Dockerfile
+    environment:
+      - TestKey=TestValue
